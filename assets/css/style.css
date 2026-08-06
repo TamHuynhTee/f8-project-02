@@ -28,10 +28,13 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  padding-top: 2rem;
+  background-color: var(--primary-bg-color);
 }
 
 a {
@@ -148,6 +151,7 @@ p.desc {
   width: 0.6rem;
   border-radius: 50%;
   background-color: var(--secondary-txt-color);
+  cursor: pointer;
 }
 
 .pagination.dot > span + span {
@@ -163,7 +167,7 @@ p.desc {
   position: sticky;
   top: 0;
   z-index: 1;
-  padding-block: 3.6rem;
+  padding-block: 1.6rem;
   background-color: var(--primary-bg-color);
 }
 
@@ -213,7 +217,7 @@ p.desc {
   height: 0.2rem;
   width: 1.2rem;
   border-radius: 1px;
-  background-color: var(--secondary-txt-color);
+  background-color: var(--primary-txt-color);
 }
 
 .header__btn {
@@ -223,7 +227,7 @@ p.desc {
 }
 /* Hero */
 .hero {
-  padding-top: 2.8rem;
+  padding-top: 4.8rem;
   background-color: var(--primary-bg-color);
   min-height: 778px;
 }
@@ -391,7 +395,7 @@ p.desc {
 
 /* Course */
 .course {
-  margin-block: 20rem;
+  padding: 20rem;
   background-color: var(--secondary-bg-color);
 }
 
